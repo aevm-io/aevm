@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/rlp"
 )
 
 type jsonEncoder interface {

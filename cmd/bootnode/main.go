@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/aevm-io/aevm/cmd/utils"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/p2p/discover"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/p2p/nat"
+	"github.com/aevm-io/aevm/p2p/netutil"
 )
 
 func main() {

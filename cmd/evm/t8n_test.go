@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/aevm-io/aevm/cmd/evm/internal/t8ntool"
+	"github.com/aevm-io/aevm/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

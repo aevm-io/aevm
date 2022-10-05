@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/crypto"
+	vfc "github.com/aevm-io/aevm/les/vflux/client"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/rlp"
 )
 
 // Constants to match up protocol versions and messages

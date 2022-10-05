@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/aevm-io/aevm/accounts"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/internal/ethapi"
+	"github.com/aevm-io/aevm/signer/core"
+	"github.com/aevm-io/aevm/signer/core/apitypes"
+	"github.com/aevm-io/aevm/signer/storage"
 )
 
 const JS = `

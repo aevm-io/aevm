@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/rlp"
+	"github.com/aevm-io/aevm/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

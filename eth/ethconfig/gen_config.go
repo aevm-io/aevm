@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/consensus/ethash"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/eth/downloader"
+	"github.com/aevm-io/aevm/eth/gasprice"
+	"github.com/aevm-io/aevm/miner"
+	"github.com/aevm-io/aevm/params"
 )
 
 // MarshalTOML marshals as TOML.

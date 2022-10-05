@@ -25,12 +25,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/p2p"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/rpc"
 )
 
 const (

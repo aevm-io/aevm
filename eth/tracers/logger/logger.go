@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/common/math"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/params"
 	"github.com/holiman/uint256"
 )
 

@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/aevm-io/aevm/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

@@ -33,25 +33,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/rules"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/aevm-io/aevm/accounts"
+	"github.com/aevm-io/aevm/accounts/keystore"
+	"github.com/aevm-io/aevm/cmd/utils"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/internal/ethapi"
+	"github.com/aevm-io/aevm/internal/flags"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/node"
+	"github.com/aevm-io/aevm/params"
+	"github.com/aevm-io/aevm/rlp"
+	"github.com/aevm-io/aevm/rpc"
+	"github.com/aevm-io/aevm/signer/core"
+	"github.com/aevm-io/aevm/signer/core/apitypes"
+	"github.com/aevm-io/aevm/signer/fourbyte"
+	"github.com/aevm-io/aevm/signer/rules"
+	"github.com/aevm-io/aevm/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -730,7 +730,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ethereum/go-ethereum/issues/20123
+	// https://github.com/aevm-io/aevm/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

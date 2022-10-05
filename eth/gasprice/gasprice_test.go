@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/consensus/ethash"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/event"
+	"github.com/aevm-io/aevm/params"
+	"github.com/aevm-io/aevm/rpc"
 )
 
 const testHead = 32

@@ -22,9 +22,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/log"
 )
 
 var (

@@ -23,14 +23,14 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/aevm-io/aevm/consensus/ethash"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/core/state"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/params"
+	"github.com/aevm-io/aevm/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

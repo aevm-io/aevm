@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/internal/testlog"
+	"github.com/aevm-io/aevm/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

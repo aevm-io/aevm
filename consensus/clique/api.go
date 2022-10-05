@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/consensus"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/rlp"
+	"github.com/aevm-io/aevm/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/common"
+	cmath "github.com/aevm-io/aevm/common/math"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/math"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/log"
 )
 
 // Config are the configuration options for the Interpreter

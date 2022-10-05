@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common/fdlimit"
+	"github.com/aevm-io/aevm/internal/flags"
+	"github.com/aevm-io/aevm/log"
 	"github.com/urfave/cli/v2"
 )
 

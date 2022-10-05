@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/aevm-io/aevm/core/state"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/eth/tracers/logger"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/tests"
 
 	"github.com/urfave/cli/v2"
 )

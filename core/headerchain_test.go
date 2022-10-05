@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/consensus"
+	"github.com/aevm-io/aevm/consensus/ethash"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

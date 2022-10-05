@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/aevm-io/aevm/rlp"
 )
 
 // Entry is implemented by known node record entry types.

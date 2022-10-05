@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/aevm-io/aevm/eth/filters"
+	"github.com/aevm-io/aevm/internal/ethapi"
+	"github.com/aevm-io/aevm/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

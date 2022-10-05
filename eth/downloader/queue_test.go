@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/consensus/ethash"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/params"
+	"github.com/aevm-io/aevm/trie"
 )
 
 // makeChain creates a chain of n blocks starting at and including parent.

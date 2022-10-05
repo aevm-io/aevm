@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aevm-io/aevm/internal/cmdtest"
+	"github.com/aevm-io/aevm/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 type testgeth struct {

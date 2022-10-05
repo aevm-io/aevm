@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests/fuzzers/vflux"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/tests/fuzzers/vflux"
 )
 
 func main() {

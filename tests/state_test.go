@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

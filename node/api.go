@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/internal/debug"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/p2p"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

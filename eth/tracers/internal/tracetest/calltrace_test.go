@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/hexutil"
+	"github.com/aevm-io/aevm/common/math"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/eth/tracers"
+	"github.com/aevm-io/aevm/params"
+	"github.com/aevm-io/aevm/rlp"
+	"github.com/aevm-io/aevm/tests"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/aevm-io/aevm/eth/tracers/js"
+	_ "github.com/aevm-io/aevm/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

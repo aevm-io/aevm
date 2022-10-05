@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core/state"
+	"github.com/aevm-io/aevm/core/vm"
+	"github.com/aevm-io/aevm/eth/tracers"
+	"github.com/aevm-io/aevm/params"
 )
 
 type account struct{}

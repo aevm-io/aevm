@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/ethdb"
+	"github.com/aevm-io/aevm/log"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aevm-io/aevm/accounts"
+	"github.com/aevm-io/aevm/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 var (

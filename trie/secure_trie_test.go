@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/crypto"
+	"github.com/aevm-io/aevm/ethdb/memorydb"
 )
 
 func newEmptySecure() *StateTrie {

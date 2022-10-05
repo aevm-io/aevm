@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/aevm-io/aevm/les/utils"
+	"github.com/aevm-io/aevm/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

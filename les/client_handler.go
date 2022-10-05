@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/les/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/mclock"
+	"github.com/aevm-io/aevm/core/forkid"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/eth/protocols/eth"
+	"github.com/aevm-io/aevm/les/downloader"
+	"github.com/aevm-io/aevm/light"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/p2p"
+	"github.com/aevm-io/aevm/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

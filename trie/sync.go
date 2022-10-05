@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/common/prque"
+	"github.com/aevm-io/aevm/core/rawdb"
+	"github.com/aevm-io/aevm/ethdb"
+	"github.com/aevm-io/aevm/log"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

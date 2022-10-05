@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/aevm-io/aevm/event"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/node"
+	"github.com/aevm-io/aevm/p2p"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/p2p/simulations/pipes"
+	"github.com/aevm-io/aevm/rpc"
 	"github.com/gorilla/websocket"
 )
 

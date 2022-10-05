@@ -39,24 +39,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/aevm-io/aevm/accounts"
+	"github.com/aevm-io/aevm/accounts/keystore"
+	"github.com/aevm-io/aevm/cmd/utils"
+	"github.com/aevm-io/aevm/common"
+	"github.com/aevm-io/aevm/core"
+	"github.com/aevm-io/aevm/core/types"
+	"github.com/aevm-io/aevm/eth/downloader"
+	"github.com/aevm-io/aevm/eth/ethconfig"
+	"github.com/aevm-io/aevm/ethclient"
+	"github.com/aevm-io/aevm/ethstats"
+	"github.com/aevm-io/aevm/internal/version"
+	"github.com/aevm-io/aevm/les"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/node"
+	"github.com/aevm-io/aevm/p2p"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/p2p/nat"
+	"github.com/aevm-io/aevm/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -463,7 +463,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/aevm-io/aevm/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

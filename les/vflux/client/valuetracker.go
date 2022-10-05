@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/aevm-io/aevm/common/mclock"
+	"github.com/aevm-io/aevm/ethdb"
+	"github.com/aevm-io/aevm/les/utils"
+	"github.com/aevm-io/aevm/log"
+	"github.com/aevm-io/aevm/p2p/enode"
+	"github.com/aevm-io/aevm/rlp"
 )
 
 const (
