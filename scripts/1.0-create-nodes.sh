@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir devnet && cd devnet
 
-mkdir node1 node2 node1/keystore
+mkdir node1 node2
 cp -r ../keystore/ node1/keystore/
 cp -r ../keystore2/ node2/keystore/
 
