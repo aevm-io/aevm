@@ -1,17 +1,10 @@
 #!/bin/bash
-mkdir devnet && cd devnet
+mkdir devnet
+mkdir devnet/node1 devnet/node2 devnet/node3
 
-mkdir node1 node2
-cp -r ../keystore/ node1/keystore/
-cp -r ../keystore2/ node2/keystore/
-
-
-# mkdir node1 node2
-cd node1 && echo 'd321k127' > password.txt
-cd ../node2 && echo 'd321k127' > password.txt
-
+cp -R keystore1 devnet/node1/keystore
+cp -R keystore2 devnet/node2/keystore
 
 # create accounts for node 
 # cd ../
-# geth --datadir node2 account new --password node1/password.txt 
-
+# geth --datadir node2 account new --password node1/password.txt
