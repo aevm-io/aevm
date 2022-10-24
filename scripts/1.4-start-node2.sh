@@ -7,6 +7,6 @@ PORT=30307
 
  echo 'd321k127' > devnet/node1/password.txt
 
-../build/bin/geth --datadir devnet/node2 --port $PORT --syncmode full --bootnodes $BOOT_NODE  --networkid 9999 --http --http.addr 0.0.0.0 --http.api admin,eth,miner,net,txpool,personal,web3 --allow-insecure-unlock --http.corsdomain "*" --http.vhosts "*" --http.port 8546 --unlock 22f6a0f1114b2503b522d347124641c1761faba5 --authrpc.port 8552 --password devnet/node2/password.txt --mine console
+../build/bin/geth --datadir devnet/node2 --port $PORT --syncmode full --bootnodes $BOOT_NODE  --networkid 9999 --http --http.addr 0.0.0.0 --http.api admin,eth,miner,net,txpool,personal,web3,debug --allow-insecure-unlock --http.corsdomain "*" --http.vhosts "*" --http.port 8546 --unlock 22f6a0f1114b2503b522d347124641c1761faba5 --authrpc.port 8552 --password devnet/node2/password.txt --mine console
 
 
