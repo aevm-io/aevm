@@ -2,7 +2,7 @@
 mkdir devnet
 mkdir devnet/node1 devnet/node2 devnet/node3
 
-cp -R keystore1 devnet/node1/keystore
+cp -R keystore devnet/node1/keystore
 cp -R keystore2 devnet/node2/keystore
 
 # create accounts for node 
