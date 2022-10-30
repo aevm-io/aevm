@@ -11,7 +11,7 @@ echo 'd321k127' > devnet/node2/password.txt
 --port $PORT \
 --syncmode full \
 --bootnodes $BOOT_NODE \
---networkid 100028 \
+--networkid 10028 \
 --http --http.addr 0.0.0.0 \
 --http.api admin,eth,miner,net,txpool,personal,web3 \
 --allow-insecure-unlock \
